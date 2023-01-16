@@ -3,7 +3,7 @@ const config = {
         port: process.env.PORT || 3000,
     },
     db: {
-        uri: process.env.MONGODB_URI || "mongodb://127.0.0.1:27017/contactbook"
+        uri: process.env.MONGODB_URI || "mongodb+srv://duyb1906441:lieuhoangduy909@cluster0.l5jeijx.mongodb.net/?retryWrites=true&w=majority"
     }
 };
 
